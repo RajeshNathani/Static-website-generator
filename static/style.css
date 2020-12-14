@@ -1,0 +1,8 @@
+*{
+    margin: 0%;
+}
+@media(max-width:500px){
+    nav{
+        display: none !important;
+    }
+}
