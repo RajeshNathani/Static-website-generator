@@ -1,2 +1,2 @@
 # Static-website-generator
-**_Using Python and Flask_.**
+**_Using React and Flask_.**
