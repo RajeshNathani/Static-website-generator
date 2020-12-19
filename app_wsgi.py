@@ -18,7 +18,7 @@ def home():
     theme = request.form.get('Theme')
     para = request.form.get('para')
 
-    if theme == "Dark":
+    if theme == "Dark" or theme == "dark":
         css = "<link rel='stylesheet' href ='https://bootswatch.com/4/darkly/bootstrap.min.css'>"
     else:
         css = "<link rel='stylesheet' href ='https://bootswatch.com/4/flatly/bootstrap.min.css'>"
